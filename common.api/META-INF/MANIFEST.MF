@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Api
+Bundle-SymbolicName: common.api
+Bundle-Version: 1.0.0.qualifier
+Export-Package: common.api
+Automatic-Module-Name: common.api
+Bundle-RequiredExecutionEnvironment: JavaSE-22

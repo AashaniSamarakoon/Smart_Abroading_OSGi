@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Scholarship_funding_finder
+Bundle-SymbolicName: scholarship_funding_finder
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: scholarship_funding_finder.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-22
+Automatic-Module-Name: scholarship.funding.finder
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

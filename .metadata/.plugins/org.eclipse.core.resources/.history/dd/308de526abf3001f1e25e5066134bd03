@@ -1,0 +1,24 @@
+package university.admission.tracker;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceRegistration;
+
+import common.api.UniversityAdmissionService;
+
+public class ServiceActivator implements BundleActivator {
+
+    private ServiceRegistration<?> registration;
+
+
+	public void start(BundleContext context) throws Exception {
+		 UniversityAdmissionService service = new UniversityAdmissionTracker();
+	        registration = context.registerService(UniversityAdmissionService.class.getName(), service, null);
+	        System.out.println("University Admission Tracker Started.");
+	}
+
+	public void stop(BundleContext bundleContext) throws Exception {
+		
+	}
+
+}

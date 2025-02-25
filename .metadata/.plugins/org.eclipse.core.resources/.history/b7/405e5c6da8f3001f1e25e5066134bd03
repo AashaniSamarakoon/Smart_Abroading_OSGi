@@ -1,0 +1,19 @@
+package study.plan.manager;
+
+import common.api.UniversityAdmissionService;
+import org.osgi.framework.*;
+
+public class Activator implements BundleActivator {
+    private ServiceReference<?> reference;
+    private UniversityAdmissionService service;
+
+    @Override
+    public void start(BundleContext context) {
+        reference = context.getServiceReference(UniversityAdmissionService.class.getName());
+        if (reference != null) {
+            service = (UniversityAdmissionService) context.getService(reference);
+            String status = service.getAdmissionStatus("S12345");
+            System.out.println("Study Plan Manager: Admission status is " + status + ". Preparing study plan...");
+        }
+    }
+}

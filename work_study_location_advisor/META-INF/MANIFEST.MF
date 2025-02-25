@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Work_study_location_advisor
+Bundle-SymbolicName: work_study_location_advisor
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: work_study_location_advisor.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-22
+Automatic-Module-Name: work.study.location.advisor
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
