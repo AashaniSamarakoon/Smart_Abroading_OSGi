@@ -1,7 +1,0 @@
-Bundle-ManifestVersion: 2
-Bundle-Name: UniversityAdmissionTracker
-Bundle-SymbolicName: university.admission.tracker
-Bundle-Version: 1.0.0
-Bundle-Activator: university.admission.tracker.Activator
-Import-Package: org.osgi.framework, common.api
-Export-Package: common.api

@@ -32,9 +32,9 @@ public class ServiceActivator implements BundleActivator {
 	        System.out.println("Study Plan Manager is shutting down...");
 	        
 	        if (reference != null) {
+	            context.ungetService(reference);
 	            System.out.println("Study Plan Manager Stopped.");
 
-	            context.ungetService(reference);
 	        } else {
 	            System.out.println("Study Plan Manager: No service reference to unregister.");
 	        }
