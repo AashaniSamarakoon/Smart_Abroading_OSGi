@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SkillAssessmentSystem
+Bundle-SymbolicName: SkillAssessmentSystem
+Bundle-Version: 1.0.0.qualifier
+Export-Package: skill.assessment.system
+Bundle-Activator: skill.assessment.system.SkillAssessmentActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-22
+Import-Package: common.api,
+ org.osgi.framework;version="1.3.0"

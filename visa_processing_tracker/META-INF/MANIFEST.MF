@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Visa_processing-tracker
-Bundle-SymbolicName: visa-processing-tracker
+Bundle-Name: VisaProcessingTracker
+Bundle-SymbolicName: VisaProcessingTracker
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: visa_processing_tracker.Activator
+Export-Package: visa.processing.tracker
+Bundle-Activator: visa.processing.tracker.VisaProcessingServiceActivator
 Bundle-RequiredExecutionEnvironment: JavaSE-22
-Automatic-Module-Name: visa.processing.tracker
-Import-Package: org.osgi.framework;version="1.3.0"
-Bundle-ActivationPolicy: lazy
+Import-Package: common.api,
+ org.osgi.framework;version="1.3.0"

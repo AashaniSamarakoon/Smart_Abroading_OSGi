@@ -1,7 +1,6 @@
 #encoding=UTF-8
 #version=1
 StudyPlanManager,1.0.0.qualifier,file:/C:/Users/nethm/osgi-framwork-workspace/study.plan.manager/,4,true
-UniversityAdmissionTracker,1.0.0.qualifier,file:/C:/Users/nethm/osgi-framwork-workspace/university.admission.tracker/,4,true
 bcpg,1.78.1,file:/C:/Users/nethm/.p2/pool/plugins/bcpg_1.78.1.jar,4,true
 bcpkix,1.78.1,file:/C:/Users/nethm/.p2/pool/plugins/bcpkix_1.78.1.jar,4,true
 bcprov,1.78.1,file:/C:/Users/nethm/.p2/pool/plugins/bcprov_1.78.1.jar,4,true
@@ -1014,3 +1013,4 @@ org.tukaani.xz,1.9.0,file:/C:/Users/nethm/.p2/pool/plugins/org.tukaani.xz_1.9.0.
 org.uddi4j,2.0.5.v20230923-0644,file:/C:/Users/nethm/.p2/pool/plugins/org.uddi4j_2.0.5.v20230923-0644.jar,4,true
 slf4j.api,2.0.13,file:/C:/Users/nethm/.p2/pool/plugins/slf4j.api_2.0.13.jar,4,true
 slf4j.simple,2.0.13,file:/C:/Users/nethm/.p2/pool/plugins/slf4j.simple_2.0.13.jar,4,true
+university_admission_tracker,1.0.0.qualifier,file:/C:/Users/nethm/osgi-framwork-workspace/university_admission_tracker/,4,true

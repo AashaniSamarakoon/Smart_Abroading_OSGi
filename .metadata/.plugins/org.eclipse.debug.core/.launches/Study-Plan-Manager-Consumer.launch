@@ -10,7 +10,18 @@
     <booleanAttribute key="default" value="true"/>
     <booleanAttribute key="default_auto_start" value="true"/>
     <intAttribute key="default_start_level" value="4"/>
-    <setAttribute key="deselected_workspace_bundles"/>
+    <setAttribute key="deselected_workspace_bundles">
+        <setEntry value="UniversityAdmissionTracker"/>
+        <setEntry value="accommodation_cost_tracker"/>
+        <setEntry value="currency_exchange_monitor"/>
+        <setEntry value="financial_planning_assistant"/>
+        <setEntry value="flight_travel_planner"/>
+        <setEntry value="salary_savings_planner"/>
+        <setEntry value="scholarship_funding_finder"/>
+        <setEntry value="travel_advisory_system"/>
+        <setEntry value="visa-processing-tracker"/>
+        <setEntry value="work_study_location_advisor"/>
+    </setAttribute>
     <booleanAttribute key="includeOptional" value="true"/>
     <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
@@ -1036,8 +1047,11 @@
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">
         <setEntry value="StudyPlanManager@default:default"/>
-        <setEntry value="UniversityAdmissionTracker@default:default"/>
         <setEntry value="common.api@default:default"/>
+        <setEntry value="job.market.tracker@default:default"/>
+        <setEntry value="job.recommendation.engine@default:default"/>
+        <setEntry value="skill.assessment.system@default:default"/>
+        <setEntry value="visa.eligibility.checker@default:default"/>
     </setAttribute>
     <booleanAttribute key="show_selected_only" value="false"/>
     <booleanAttribute key="tracing" value="false"/>
