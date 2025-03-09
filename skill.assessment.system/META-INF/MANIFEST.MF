@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: SkillAssessmentSystem
-Bundle-SymbolicName: SkillAssessmentSystem
+Bundle-Name: Skill_assessment_system
+Bundle-SymbolicName: skill_assessment_system
 Bundle-Version: 1.0.0.qualifier
 Export-Package: skill.assessment.system
 Bundle-Activator: skill.assessment.system.SkillAssessmentActivator
