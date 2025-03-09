@@ -12,7 +12,7 @@ public class CurrencyExchangeMonitorActivator implements BundleActivator {
 	public void start(BundleContext context) throws Exception {
 		CurrencyExchangeService service = new CurrencyExchangeMonitorPublisher();
         registration = context.registerService(CurrencyExchangeService.class.getName(), service, null);
-        System.out.println("Currency Exchange Monitor Started.");
+        System.out.println("Currency Exchange Monitor Started with Real-Time Rates!");
 	}
 
 	public void stop(BundleContext context) {
