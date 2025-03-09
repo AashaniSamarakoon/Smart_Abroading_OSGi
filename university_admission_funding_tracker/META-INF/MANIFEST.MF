@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: University_admission_funding_tracker
+Bundle-SymbolicName: university_admission_funding_tracker
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: university_admission_funding_tracker.UniversityAdmissionFundingTracker
+Bundle-RequiredExecutionEnvironment: JavaSE-22
+Automatic-Module-Name: university.admission.funding.tracker
+Import-Package: common.api,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
