@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: FlightTravelPlanner
-Bundle-SymbolicName: FlightTravelPlanner
+Bundle-Name: Flight_travel_planner
+Bundle-SymbolicName: flight_travel_planner
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: flight.travel.planner.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-22
