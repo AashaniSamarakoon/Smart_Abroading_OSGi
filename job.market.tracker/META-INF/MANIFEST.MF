@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: JobMarketTracker
-Bundle-SymbolicName: JobMarketTracker
+Bundle-Name: Job_market_tracker
+Bundle-SymbolicName: job_market_tracker
 Bundle-Version: 1.0.0.qualifier
 Export-Package: job.market.tracker
 Bundle-Activator: job.market.tracker.JobMarketActivator
