@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="currency_exchange_monitor.CurrencyExchangeMonitorPublisher"/>
+    <fullyQualifiedTypeName name="common.api.JobMarketService"/>
+    <fullyQualifiedTypeName name="java.util.Currency"/>
+    <fullyQualifiedTypeName name="common.api.CurrencyExchangeService"/>
+    <fullyQualifiedTypeName name="javax.sql.CommonDataSource"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>
