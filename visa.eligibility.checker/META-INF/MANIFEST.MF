@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Visa_eligibility_checker
-Bundle-SymbolicName: visa_eligibility_checker
+Bundle-Name: VisaEligibilityChecker
+Bundle-SymbolicName: VisaEligibilityChecker
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: visa.eligibility.checker.ServiceActivator
 Bundle-RequiredExecutionEnvironment: JavaSE-22
