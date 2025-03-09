@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: University_admission_tracker
-Bundle-SymbolicName: university_admission_tracker
+Bundle-Name: UniversityAdmissionTracker
+Bundle-SymbolicName: UniversityAdmissionTracker
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: university.admission.tracker.ServiceActivator
 Export-Package: university.admission.tracker

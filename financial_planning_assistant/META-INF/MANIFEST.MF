@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Financial_planning_assistant
-Bundle-SymbolicName: financial_planning_assistant
+Bundle-Name: FinancialPlanningAssistant
+Bundle-SymbolicName: FinancialPlanningAssistant
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: financial_planning_assistant.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-22

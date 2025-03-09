@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Study_plan_manager
-Bundle-SymbolicName: study_plan_manager
+Bundle-Name: StudyPlanManager
+Bundle-SymbolicName: StudyPlanManager
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: study.plan.manager.ServiceActivator
 Bundle-RequiredExecutionEnvironment: JavaSE-22

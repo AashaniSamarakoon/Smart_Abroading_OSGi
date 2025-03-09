@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Job_recommendation_engine
-Bundle-SymbolicName: job_recommendation_engine
+Bundle-Name: JobRecommendationEngine
+Bundle-SymbolicName: JobRecommendationEngine
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: job.recommendation.engine.ServiceActivator
 Import-Package: common.api,
