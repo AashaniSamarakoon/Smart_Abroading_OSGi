@@ -13,7 +13,7 @@ public class VisaProcessingServiceActivator implements BundleActivator {
     public void start(BundleContext context) throws Exception {
         VisaProcessingService service = new VisaProcessingTracker();
         registration = context.registerService(VisaProcessingService.class.getName(), service, null);
-        System.out.println("Visa Processing Tracker Started.");
+        System.out.println("Visa Processing Tracker Started.\n");
     }
 
     @Override

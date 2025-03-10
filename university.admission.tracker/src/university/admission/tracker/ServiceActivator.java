@@ -16,6 +16,8 @@ public class ServiceActivator implements BundleActivator {
 
 		 UniversityAdmissionService service = new UniversityAdmissionTracker();
 	        registration = context.registerService(UniversityAdmissionService.class.getName(), service, null);
+	        
+	        Thread.sleep(7000);
 	}
 
 	public void stop(BundleContext context) throws Exception {

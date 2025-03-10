@@ -2,10 +2,12 @@ package job.location.safety.checker;
 
 import common.api.TravelAdvisoryService;
 import org.osgi.framework.*;
+import java.util.Scanner;
 
-public class Activator implements BundleActivator {
+public class JobLocationSafetyTrackerActivator implements BundleActivator {
     private ServiceReference<TravelAdvisoryService> travelReference;
     private TravelAdvisoryService travelService;
+    private volatile boolean running = true;  // Flag to control loop
 
     @Override
     public void start(BundleContext context) throws Exception {
@@ -14,22 +16,25 @@ public class Activator implements BundleActivator {
         
         if (travelReference != null) {
             travelService = context.getService(travelReference);
-            
-            // Check job location safety for some example countries
-            String[] jobLocations = {"UK", "USA", "Syria"};
-            System.out.println("\n🔎 Job Location Safety Checker:");
-            
-            for (String country : jobLocations) {
+            System.out.println("\nJob Location Safety Checker Started!");
+
+            Scanner scanner = new Scanner(System.in);
+
+            // Loop to continuously check location safety
+            while (running) {
+                System.out.print("\n Enter a country to check its safety (or type 'exit' to stop): ");
+                String country = scanner.nextLine().trim();
+
+                if (country.equalsIgnoreCase("exit")) {
+                    running = false;
+                    break;
+                }
+
                 String safetyStatus = travelService.getSafetyStatus(country);
-                System.out.println("📍 " + country + " - Safety Level: " + safetyStatus);
+                System.out.println(" "+country + "'s Safety Level: " + safetyStatus);
             }
-            
-            // Show travel alerts
-            String[] alerts = travelService.getTravelAlerts();
-            System.out.println("\n⚠️ Global Travel Alerts:");
-            for (String alert : alerts) {
-                System.out.println("- " + alert);
-            }
+
+            scanner.close();
         } else {
             System.out.println("❌ Job Location Safety Checker: Travel Advisory Service not available.");
         }
@@ -37,9 +42,10 @@ public class Activator implements BundleActivator {
 
     @Override
     public void stop(BundleContext context) throws Exception {
+        running = false; // Stop the loop
         if (travelReference != null) {
             context.ungetService(travelReference);
         }
-        System.out.println("⛔ Job Location Safety Checker Stopped.");
+        System.out.println("Job Location Safety Checker Stopped.");
     }
 }

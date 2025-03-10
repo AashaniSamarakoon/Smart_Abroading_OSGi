@@ -12,7 +12,7 @@ public class TravelAdvisoryActivator implements BundleActivator {
     public void start(BundleContext context) throws Exception {
         TravelAdvisoryService service = new TravelAdvisoryServiceImpl();
         registration = context.registerService(TravelAdvisoryService.class, service, null);
-        System.out.println("🚀 Travel Advisory Service Started.");
+        System.out.println("Travel Advisory Service Started.");
     }
 
     @Override
@@ -20,7 +20,7 @@ public class TravelAdvisoryActivator implements BundleActivator {
         if (registration != null) {
             registration.unregister();
         }
-        System.out.println("⛔ Travel Advisory Service Stopped.");
+        System.out.println("Travel Advisory Service Stopped.");
     }
 }
 

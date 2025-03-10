@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: JobLocationSafetyChecker
 Bundle-SymbolicName: JobLocationSafetyChecker
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: job.location.safety.checker.Activator
+Bundle-Activator: job.location.safety.checker.JobLocationSafetyTrackerActivator
 Bundle-RequiredExecutionEnvironment: JavaSE-22
 Import-Package: common.api,
  org.osgi.framework;version="1.3.0"

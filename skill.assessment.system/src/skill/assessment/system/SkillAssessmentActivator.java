@@ -12,7 +12,10 @@ public class SkillAssessmentActivator implements BundleActivator {
     public void start(BundleContext context) throws Exception {
         SkillAssessmentService service = new SkillAssessmentSystem();
         registration = context.registerService(SkillAssessmentService.class.getName(), service, null);
-        System.out.println("Skill Assessment System Started.");
+        System.out.println("Skill Assessment System Started.\n");
+        
+        Thread.sleep(1000); 
+
     }
 
     @Override
